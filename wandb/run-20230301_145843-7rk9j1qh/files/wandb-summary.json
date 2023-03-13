@@ -1,0 +1,1 @@
+{"epoch": 199, "Loss Treino": 560.6304228901863, "acuracia treino": 59.796, "acuracia teste": 46.75, "Loss Teste": 207.20027339458466, "_timestamp": 1677703644.7023869, "_runtime": 10120.807791948318, "_step": 199, "_wandb": {"runtime": 10120}}

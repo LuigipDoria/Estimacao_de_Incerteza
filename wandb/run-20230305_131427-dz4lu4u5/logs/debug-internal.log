@@ -1,0 +1,225 @@
+2023-03-05 13:14:27,887 INFO    StreamThr :29620 [internal.py:wandb_internal():87] W&B internal server running at pid: 29620, started at: 2023-03-05 13:14:27.887169
+2023-03-05 13:14:27,888 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: status
+2023-03-05 13:14:27,891 INFO    WriterThread:29620 [datastore.py:open_for_write():85] open: /home/luigi-doria/IC/wandb/run-20230305_131427-dz4lu4u5/run-dz4lu4u5.wandb
+2023-03-05 13:14:27,891 DEBUG   SenderThread:29620 [sender.py:send():334] send: header
+2023-03-05 13:14:27,893 DEBUG   SenderThread:29620 [sender.py:send():334] send: run
+2023-03-05 13:14:28,361 INFO    SenderThread:29620 [dir_watcher.py:__init__():216] watching files in: /home/luigi-doria/IC/wandb/run-20230305_131427-dz4lu4u5/files
+2023-03-05 13:14:28,361 INFO    SenderThread:29620 [sender.py:_start_run_threads():1065] run started: dz4lu4u5 with start time 1678032867.886728
+2023-03-05 13:14:28,361 DEBUG   SenderThread:29620 [sender.py:send_request():361] send_request: summary_record
+2023-03-05 13:14:28,361 INFO    SenderThread:29620 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-03-05 13:14:28,363 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: check_version
+2023-03-05 13:14:28,363 DEBUG   SenderThread:29620 [sender.py:send_request():361] send_request: check_version
+2023-03-05 13:14:28,559 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: run_start
+2023-03-05 13:14:28,568 DEBUG   HandlerThread:29620 [system_info.py:__init__():31] System info init
+2023-03-05 13:14:28,569 DEBUG   HandlerThread:29620 [system_info.py:__init__():46] System info init done
+2023-03-05 13:14:28,569 INFO    HandlerThread:29620 [system_monitor.py:start():151] Starting system monitor
+2023-03-05 13:14:28,569 INFO    SystemMonitor:29620 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-05 13:14:28,570 INFO    HandlerThread:29620 [system_monitor.py:probe():172] Collecting system info
+2023-03-05 13:14:28,571 INFO    SystemMonitor:29620 [interfaces.py:start():168] Started cpu
+2023-03-05 13:14:28,571 INFO    SystemMonitor:29620 [interfaces.py:start():168] Started disk
+2023-03-05 13:14:28,573 INFO    SystemMonitor:29620 [interfaces.py:start():168] Started gpu
+2023-03-05 13:14:28,574 INFO    SystemMonitor:29620 [interfaces.py:start():168] Started memory
+2023-03-05 13:14:28,575 INFO    SystemMonitor:29620 [interfaces.py:start():168] Started network
+2023-03-05 13:14:28,608 DEBUG   HandlerThread:29620 [system_info.py:probe():195] Probing system
+2023-03-05 13:14:28,611 DEBUG   HandlerThread:29620 [git.py:repo():40] git repository is invalid
+2023-03-05 13:14:28,611 DEBUG   HandlerThread:29620 [system_info.py:probe():241] Probing system done
+2023-03-05 13:14:28,611 DEBUG   HandlerThread:29620 [system_monitor.py:probe():181] {'os': 'Linux-4.15.0-197-generic-x86_64-with-glibc2.27', 'python': '3.10.8', 'heartbeatAt': '2023-03-05T16:14:28.609029', 'startedAt': '2023-03-05T16:14:27.880002', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'IC/Hydra.ipynb', 'root': '/home/luigi-doria', 'host': 'ml', 'username': 'luigi-doria', 'executable': '/home/luigi-doria/miniconda3/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 0.7999999999999999, 'min': 800.0, 'max': 4500.0}, 'cpu_freq_per_core': [{'current': 0.8, 'min': 800.0, 'max': 4500.0}, {'current': 0.8, 'min': 800.0, 'max': 4500.0}, {'current': 0.8, 'min': 800.0, 'max': 4500.0}, {'current': 0.8, 'min': 800.0, 'max': 4500.0}, {'current': 0.8, 'min': 800.0, 'max': 4500.0}, {'current': 0.8, 'min': 800.0, 'max': 4500.0}, {'current': 0.8, 'min': 800.0, 'max': 4500.0}, {'current': 0.8, 'min': 800.0, 'max': 4500.0}], 'disk': {'total': 915.3223114013672, 'used': 349.4958724975586}, 'gpu': 'NVIDIA GeForce GTX 1060 6GB', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1060 6GB', 'memory_total': 6371475456}], 'memory': {'total': 7.717708587646484}}
+2023-03-05 13:14:28,611 INFO    HandlerThread:29620 [system_monitor.py:probe():182] Finished collecting system info
+2023-03-05 13:14:28,611 INFO    HandlerThread:29620 [system_monitor.py:probe():185] Publishing system info
+2023-03-05 13:14:28,611 DEBUG   HandlerThread:29620 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-05 13:14:28,612 DEBUG   HandlerThread:29620 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-05 13:14:28,612 DEBUG   HandlerThread:29620 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-03-05 13:14:29,363 INFO    Thread-13 :29620 [dir_watcher.py:_on_file_created():275] file/dir created: /home/luigi-doria/IC/wandb/run-20230305_131427-dz4lu4u5/files/conda-environment.yaml
+2023-03-05 13:14:29,363 INFO    Thread-13 :29620 [dir_watcher.py:_on_file_created():275] file/dir created: /home/luigi-doria/IC/wandb/run-20230305_131427-dz4lu4u5/files/requirements.txt
+2023-03-05 13:14:29,363 INFO    Thread-13 :29620 [dir_watcher.py:_on_file_created():275] file/dir created: /home/luigi-doria/IC/wandb/run-20230305_131427-dz4lu4u5/files/wandb-summary.json
+2023-03-05 13:14:30,767 DEBUG   HandlerThread:29620 [system_info.py:_save_conda():86] Saving conda packages done
+2023-03-05 13:14:30,767 INFO    HandlerThread:29620 [system_monitor.py:probe():187] Finished publishing system info
+2023-03-05 13:14:30,768 DEBUG   SenderThread:29620 [sender.py:send():334] send: files
+2023-03-05 13:14:30,768 INFO    SenderThread:29620 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2023-03-05 13:14:30,777 DEBUG   SenderThread:29620 [sender.py:send():334] send: telemetry
+2023-03-05 13:14:30,778 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-05 13:14:30,778 DEBUG   SenderThread:29620 [sender.py:send_request():361] send_request: stop_status
+2023-03-05 13:14:31,362 INFO    Thread-13 :29620 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/luigi-doria/IC/wandb/run-20230305_131427-dz4lu4u5/files/conda-environment.yaml
+2023-03-05 13:14:31,362 INFO    Thread-13 :29620 [dir_watcher.py:_on_file_created():275] file/dir created: /home/luigi-doria/IC/wandb/run-20230305_131427-dz4lu4u5/files/wandb-metadata.json
+2023-03-05 13:14:31,362 INFO    Thread-13 :29620 [dir_watcher.py:_on_file_created():275] file/dir created: /home/luigi-doria/IC/wandb/run-20230305_131427-dz4lu4u5/files/output.log
+2023-03-05 13:14:31,382 INFO    Thread-16 :29620 [upload_job.py:push():143] Uploaded file /tmp/tmpvcado_iwwandb/8y1ao4s5-wandb-metadata.json
+2023-03-05 13:14:32,982 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 13:14:33,363 INFO    Thread-13 :29620 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/luigi-doria/IC/wandb/run-20230305_131427-dz4lu4u5/files/output.log
+2023-03-05 13:14:37,983 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 13:14:42,983 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 13:14:45,777 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 13:14:47,984 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 13:14:50,777 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 13:14:52,985 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 13:14:55,778 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 13:14:57,987 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 13:14:58,368 INFO    Thread-13 :29620 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/luigi-doria/IC/wandb/run-20230305_131427-dz4lu4u5/files/config.yaml
+2023-03-05 13:15:00,778 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 13:15:03,222 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 13:15:05,779 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 13:15:08,223 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 13:15:10,780 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 13:15:13,223 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 13:15:15,780 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 13:15:18,224 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 13:15:20,781 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 13:15:23,224 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 13:15:24,622 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-05 13:15:24,622 DEBUG   SenderThread:29620 [sender.py:send():334] send: history
+2023-03-05 13:15:24,623 DEBUG   SenderThread:29620 [sender.py:send_request():361] send_request: summary_record
+2023-03-05 13:15:24,624 INFO    SenderThread:29620 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-03-05 13:15:25,373 INFO    Thread-13 :29620 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/luigi-doria/IC/wandb/run-20230305_131427-dz4lu4u5/files/wandb-summary.json
+2023-03-05 13:15:25,374 INFO    Thread-13 :29620 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/luigi-doria/IC/wandb/run-20230305_131427-dz4lu4u5/files/output.log
+2023-03-05 13:15:25,782 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 13:15:27,584 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: pause
+2023-03-05 13:15:27,584 INFO    HandlerThread:29620 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-05 13:15:27,584 INFO    HandlerThread:29620 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-05 13:15:27,584 DEBUG   SystemMonitor:29620 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-05 13:15:27,584 INFO    HandlerThread:29620 [interfaces.py:finish():175] Joined cpu
+2023-03-05 13:15:27,584 DEBUG   SystemMonitor:29620 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-05 13:15:27,584 INFO    HandlerThread:29620 [interfaces.py:finish():175] Joined disk
+2023-03-05 13:15:27,585 DEBUG   SystemMonitor:29620 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-05 13:15:27,600 INFO    HandlerThread:29620 [interfaces.py:finish():175] Joined gpu
+2023-03-05 13:15:27,600 INFO    HandlerThread:29620 [interfaces.py:finish():175] Joined memory
+2023-03-05 13:15:27,600 INFO    HandlerThread:29620 [interfaces.py:finish():175] Joined network
+2023-03-05 13:15:27,600 DEBUG   SenderThread:29620 [sender.py:send():334] send: stats
+2023-03-05 13:15:28,601 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 13:15:30,376 INFO    Thread-13 :29620 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/luigi-doria/IC/wandb/run-20230305_131427-dz4lu4u5/files/output.log
+2023-03-05 13:15:30,783 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-05 13:15:33,602 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 13:15:34,610 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: resume
+2023-03-05 13:15:34,611 INFO    HandlerThread:29620 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-03-05 13:15:34,611 INFO    HandlerThread:29620 [system_monitor.py:start():151] Starting system monitor
+2023-03-05 13:15:34,612 INFO    SystemMonitor:29620 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-05 13:15:34,613 INFO    SystemMonitor:29620 [interfaces.py:start():168] Started cpu
+2023-03-05 13:15:34,615 INFO    SystemMonitor:29620 [interfaces.py:start():168] Started disk
+2023-03-05 13:15:34,615 DEBUG   SenderThread:29620 [sender.py:send():334] send: telemetry
+2023-03-05 13:15:34,617 DEBUG   SenderThread:29620 [sender.py:send():334] send: exit
+2023-03-05 13:15:34,617 INFO    SenderThread:29620 [sender.py:send_exit():557] handling exit code: 0
+2023-03-05 13:15:34,617 INFO    SenderThread:29620 [sender.py:send_exit():559] handling runtime: 59
+2023-03-05 13:15:34,617 INFO    SenderThread:29620 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-03-05 13:15:34,618 INFO    SenderThread:29620 [sender.py:send_exit():565] send defer
+2023-03-05 13:15:34,618 INFO    SystemMonitor:29620 [interfaces.py:start():168] Started gpu
+2023-03-05 13:15:34,618 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: defer
+2023-03-05 13:15:34,618 INFO    HandlerThread:29620 [handler.py:handle_request_defer():170] handle defer: 0
+2023-03-05 13:15:34,618 INFO    SystemMonitor:29620 [interfaces.py:start():168] Started memory
+2023-03-05 13:15:34,618 DEBUG   SenderThread:29620 [sender.py:send_request():361] send_request: defer
+2023-03-05 13:15:34,619 INFO    SenderThread:29620 [sender.py:send_request_defer():581] handle sender defer: 0
+2023-03-05 13:15:34,619 INFO    SenderThread:29620 [sender.py:transition_state():585] send defer: 1
+2023-03-05 13:15:34,619 INFO    SystemMonitor:29620 [interfaces.py:start():168] Started network
+2023-03-05 13:15:34,619 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: defer
+2023-03-05 13:15:34,619 INFO    HandlerThread:29620 [handler.py:handle_request_defer():170] handle defer: 1
+2023-03-05 13:15:34,619 DEBUG   SenderThread:29620 [sender.py:send_request():361] send_request: defer
+2023-03-05 13:15:34,619 INFO    SenderThread:29620 [sender.py:send_request_defer():581] handle sender defer: 1
+2023-03-05 13:15:34,619 INFO    SenderThread:29620 [sender.py:transition_state():585] send defer: 2
+2023-03-05 13:15:34,620 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: defer
+2023-03-05 13:15:34,620 INFO    HandlerThread:29620 [handler.py:handle_request_defer():170] handle defer: 2
+2023-03-05 13:15:34,620 INFO    HandlerThread:29620 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-05 13:15:34,620 DEBUG   SystemMonitor:29620 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-05 13:15:34,620 DEBUG   SystemMonitor:29620 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-05 13:15:34,620 DEBUG   SystemMonitor:29620 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-05 13:15:34,620 INFO    HandlerThread:29620 [interfaces.py:finish():175] Joined cpu
+2023-03-05 13:15:34,620 INFO    HandlerThread:29620 [interfaces.py:finish():175] Joined disk
+2023-03-05 13:15:34,642 INFO    HandlerThread:29620 [interfaces.py:finish():175] Joined gpu
+2023-03-05 13:15:34,642 INFO    HandlerThread:29620 [interfaces.py:finish():175] Joined memory
+2023-03-05 13:15:34,642 INFO    HandlerThread:29620 [interfaces.py:finish():175] Joined network
+2023-03-05 13:15:34,643 DEBUG   SenderThread:29620 [sender.py:send_request():361] send_request: defer
+2023-03-05 13:15:34,643 INFO    SenderThread:29620 [sender.py:send_request_defer():581] handle sender defer: 2
+2023-03-05 13:15:34,643 INFO    SenderThread:29620 [sender.py:transition_state():585] send defer: 3
+2023-03-05 13:15:34,643 DEBUG   SenderThread:29620 [sender.py:send():334] send: stats
+2023-03-05 13:15:34,643 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: defer
+2023-03-05 13:15:34,643 INFO    HandlerThread:29620 [handler.py:handle_request_defer():170] handle defer: 3
+2023-03-05 13:15:34,643 DEBUG   SenderThread:29620 [sender.py:send_request():361] send_request: defer
+2023-03-05 13:15:34,643 INFO    SenderThread:29620 [sender.py:send_request_defer():581] handle sender defer: 3
+2023-03-05 13:15:34,643 INFO    SenderThread:29620 [sender.py:transition_state():585] send defer: 4
+2023-03-05 13:15:34,643 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: defer
+2023-03-05 13:15:34,643 INFO    HandlerThread:29620 [handler.py:handle_request_defer():170] handle defer: 4
+2023-03-05 13:15:34,643 DEBUG   SenderThread:29620 [sender.py:send_request():361] send_request: defer
+2023-03-05 13:15:34,643 INFO    SenderThread:29620 [sender.py:send_request_defer():581] handle sender defer: 4
+2023-03-05 13:15:34,643 INFO    SenderThread:29620 [sender.py:transition_state():585] send defer: 5
+2023-03-05 13:15:34,643 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: defer
+2023-03-05 13:15:34,643 INFO    HandlerThread:29620 [handler.py:handle_request_defer():170] handle defer: 5
+2023-03-05 13:15:34,644 DEBUG   SenderThread:29620 [sender.py:send():334] send: summary
+2023-03-05 13:15:34,647 INFO    SenderThread:29620 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-03-05 13:15:34,647 DEBUG   SenderThread:29620 [sender.py:send_request():361] send_request: defer
+2023-03-05 13:15:34,647 INFO    SenderThread:29620 [sender.py:send_request_defer():581] handle sender defer: 5
+2023-03-05 13:15:34,647 INFO    SenderThread:29620 [sender.py:transition_state():585] send defer: 6
+2023-03-05 13:15:34,647 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: defer
+2023-03-05 13:15:34,647 INFO    HandlerThread:29620 [handler.py:handle_request_defer():170] handle defer: 6
+2023-03-05 13:15:34,647 DEBUG   SenderThread:29620 [sender.py:send_request():361] send_request: defer
+2023-03-05 13:15:34,648 INFO    SenderThread:29620 [sender.py:send_request_defer():581] handle sender defer: 6
+2023-03-05 13:15:34,650 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: status_report
+2023-03-05 13:15:34,888 INFO    SenderThread:29620 [sender.py:transition_state():585] send defer: 7
+2023-03-05 13:15:34,888 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: defer
+2023-03-05 13:15:34,888 INFO    HandlerThread:29620 [handler.py:handle_request_defer():170] handle defer: 7
+2023-03-05 13:15:34,888 DEBUG   SenderThread:29620 [sender.py:send_request():361] send_request: defer
+2023-03-05 13:15:34,888 INFO    SenderThread:29620 [sender.py:send_request_defer():581] handle sender defer: 7
+2023-03-05 13:15:35,378 INFO    Thread-13 :29620 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/luigi-doria/IC/wandb/run-20230305_131427-dz4lu4u5/files/wandb-summary.json
+2023-03-05 13:15:35,379 INFO    Thread-13 :29620 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/luigi-doria/IC/wandb/run-20230305_131427-dz4lu4u5/files/config.yaml
+2023-03-05 13:15:35,619 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-05 13:15:37,596 INFO    SenderThread:29620 [sender.py:transition_state():585] send defer: 8
+2023-03-05 13:15:37,596 DEBUG   SenderThread:29620 [sender.py:send_request():361] send_request: poll_exit
+2023-03-05 13:15:37,597 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: defer
+2023-03-05 13:15:37,597 INFO    HandlerThread:29620 [handler.py:handle_request_defer():170] handle defer: 8
+2023-03-05 13:15:37,598 DEBUG   SenderThread:29620 [sender.py:send_request():361] send_request: defer
+2023-03-05 13:15:37,598 INFO    SenderThread:29620 [sender.py:send_request_defer():581] handle sender defer: 8
+2023-03-05 13:15:37,599 INFO    SenderThread:29620 [sender.py:transition_state():585] send defer: 9
+2023-03-05 13:15:37,599 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: defer
+2023-03-05 13:15:37,599 INFO    HandlerThread:29620 [handler.py:handle_request_defer():170] handle defer: 9
+2023-03-05 13:15:37,600 DEBUG   SenderThread:29620 [sender.py:send_request():361] send_request: defer
+2023-03-05 13:15:37,600 INFO    SenderThread:29620 [sender.py:send_request_defer():581] handle sender defer: 9
+2023-03-05 13:15:37,600 INFO    SenderThread:29620 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-03-05 13:15:38,380 INFO    Thread-13 :29620 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/luigi-doria/IC/wandb/run-20230305_131427-dz4lu4u5/files/output.log
+2023-03-05 13:15:38,381 INFO    SenderThread:29620 [dir_watcher.py:finish():392] scan: /home/luigi-doria/IC/wandb/run-20230305_131427-dz4lu4u5/files
+2023-03-05 13:15:38,382 INFO    SenderThread:29620 [dir_watcher.py:finish():406] scan save: /home/luigi-doria/IC/wandb/run-20230305_131427-dz4lu4u5/files/requirements.txt requirements.txt
+2023-03-05 13:15:38,382 INFO    SenderThread:29620 [dir_watcher.py:finish():406] scan save: /home/luigi-doria/IC/wandb/run-20230305_131427-dz4lu4u5/files/conda-environment.yaml conda-environment.yaml
+2023-03-05 13:15:38,389 INFO    SenderThread:29620 [dir_watcher.py:finish():406] scan save: /home/luigi-doria/IC/wandb/run-20230305_131427-dz4lu4u5/files/wandb-metadata.json wandb-metadata.json
+2023-03-05 13:15:38,389 INFO    SenderThread:29620 [dir_watcher.py:finish():406] scan save: /home/luigi-doria/IC/wandb/run-20230305_131427-dz4lu4u5/files/wandb-summary.json wandb-summary.json
+2023-03-05 13:15:38,389 INFO    SenderThread:29620 [dir_watcher.py:finish():406] scan save: /home/luigi-doria/IC/wandb/run-20230305_131427-dz4lu4u5/files/output.log output.log
+2023-03-05 13:15:38,391 INFO    SenderThread:29620 [dir_watcher.py:finish():406] scan save: /home/luigi-doria/IC/wandb/run-20230305_131427-dz4lu4u5/files/config.yaml config.yaml
+2023-03-05 13:15:38,392 INFO    SenderThread:29620 [sender.py:transition_state():585] send defer: 10
+2023-03-05 13:15:38,392 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: defer
+2023-03-05 13:15:38,392 INFO    HandlerThread:29620 [handler.py:handle_request_defer():170] handle defer: 10
+2023-03-05 13:15:38,392 DEBUG   SenderThread:29620 [sender.py:send_request():361] send_request: defer
+2023-03-05 13:15:38,393 INFO    SenderThread:29620 [sender.py:send_request_defer():581] handle sender defer: 10
+2023-03-05 13:15:38,394 INFO    SenderThread:29620 [file_pusher.py:finish():160] shutting down file pusher
+2023-03-05 13:15:39,036 INFO    Thread-17 :29620 [upload_job.py:push():143] Uploaded file /home/luigi-doria/IC/wandb/run-20230305_131427-dz4lu4u5/files/requirements.txt
+2023-03-05 13:15:39,043 INFO    Thread-20 :29620 [upload_job.py:push():143] Uploaded file /home/luigi-doria/IC/wandb/run-20230305_131427-dz4lu4u5/files/output.log
+2023-03-05 13:15:39,047 INFO    Thread-18 :29620 [upload_job.py:push():143] Uploaded file /home/luigi-doria/IC/wandb/run-20230305_131427-dz4lu4u5/files/conda-environment.yaml
+2023-03-05 13:15:39,052 INFO    Thread-19 :29620 [upload_job.py:push():143] Uploaded file /home/luigi-doria/IC/wandb/run-20230305_131427-dz4lu4u5/files/wandb-summary.json
+2023-03-05 13:15:39,064 INFO    Thread-21 :29620 [upload_job.py:push():143] Uploaded file /home/luigi-doria/IC/wandb/run-20230305_131427-dz4lu4u5/files/config.yaml
+2023-03-05 13:15:39,264 INFO    Thread-12 (_thread_body):29620 [sender.py:transition_state():585] send defer: 11
+2023-03-05 13:15:39,265 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: defer
+2023-03-05 13:15:39,265 INFO    HandlerThread:29620 [handler.py:handle_request_defer():170] handle defer: 11
+2023-03-05 13:15:39,266 DEBUG   SenderThread:29620 [sender.py:send_request():361] send_request: defer
+2023-03-05 13:15:39,266 INFO    SenderThread:29620 [sender.py:send_request_defer():581] handle sender defer: 11
+2023-03-05 13:15:39,266 INFO    SenderThread:29620 [file_pusher.py:join():165] waiting for file pusher
+2023-03-05 13:15:39,266 INFO    SenderThread:29620 [sender.py:transition_state():585] send defer: 12
+2023-03-05 13:15:39,267 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: defer
+2023-03-05 13:15:39,267 INFO    HandlerThread:29620 [handler.py:handle_request_defer():170] handle defer: 12
+2023-03-05 13:15:39,268 DEBUG   SenderThread:29620 [sender.py:send_request():361] send_request: defer
+2023-03-05 13:15:39,268 INFO    SenderThread:29620 [sender.py:send_request_defer():581] handle sender defer: 12
+2023-03-05 13:15:39,656 INFO    SenderThread:29620 [sender.py:transition_state():585] send defer: 13
+2023-03-05 13:15:39,657 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: defer
+2023-03-05 13:15:39,657 INFO    HandlerThread:29620 [handler.py:handle_request_defer():170] handle defer: 13
+2023-03-05 13:15:39,658 DEBUG   SenderThread:29620 [sender.py:send_request():361] send_request: defer
+2023-03-05 13:15:39,658 INFO    SenderThread:29620 [sender.py:send_request_defer():581] handle sender defer: 13
+2023-03-05 13:15:39,658 INFO    SenderThread:29620 [sender.py:transition_state():585] send defer: 14
+2023-03-05 13:15:39,659 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: defer
+2023-03-05 13:15:39,659 INFO    HandlerThread:29620 [handler.py:handle_request_defer():170] handle defer: 14
+2023-03-05 13:15:39,660 DEBUG   SenderThread:29620 [sender.py:send():334] send: final
+2023-03-05 13:15:39,660 DEBUG   SenderThread:29620 [sender.py:send():334] send: footer
+2023-03-05 13:15:39,660 DEBUG   SenderThread:29620 [sender.py:send_request():361] send_request: defer
+2023-03-05 13:15:39,660 INFO    SenderThread:29620 [sender.py:send_request_defer():581] handle sender defer: 14
+2023-03-05 13:15:39,662 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-05 13:15:39,663 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: server_info
+2023-03-05 13:15:39,663 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: get_summary
+2023-03-05 13:15:39,664 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: sampled_history
+2023-03-05 13:15:39,665 DEBUG   SenderThread:29620 [sender.py:send_request():361] send_request: poll_exit
+2023-03-05 13:15:39,666 DEBUG   SenderThread:29620 [sender.py:send_request():361] send_request: server_info
+2023-03-05 13:15:40,094 DEBUG   HandlerThread:29620 [handler.py:handle_request():144] handle_request: shutdown
+2023-03-05 13:15:40,094 INFO    HandlerThread:29620 [handler.py:finish():841] shutting down handler
+2023-03-05 13:15:40,665 INFO    WriterThread:29620 [datastore.py:close():299] close: /home/luigi-doria/IC/wandb/run-20230305_131427-dz4lu4u5/run-dz4lu4u5.wandb
+2023-03-05 13:15:41,093 INFO    SenderThread:29620 [sender.py:finish():1491] shutting down sender
+2023-03-05 13:15:41,093 INFO    SenderThread:29620 [file_pusher.py:finish():160] shutting down file pusher
+2023-03-05 13:15:41,093 INFO    SenderThread:29620 [file_pusher.py:join():165] waiting for file pusher

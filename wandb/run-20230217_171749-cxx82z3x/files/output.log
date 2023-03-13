@@ -1,0 +1,202 @@
+Epoca:  0
+Student 3:  Loss Train: 4.040632410906255 || Acc Train: 8.226 || Loss Teste: 0.9357912577688694 || Acc Teste: 11.87 || Best Acc Teste: 11.87
+Epoca:  1
+Student 3:  Loss Train: 3.822322250343859 || Acc Train: 14.038 || Loss Teste: 0.9131418080069125 || Acc Teste: 15.25 || Best Acc Teste: 15.25
+Epoca:  2
+Student 3:  Loss Train: 3.7171079609543085 || Acc Train: 16.278 || Loss Teste: 0.8969284626655281 || Acc Teste: 15.13 || Best Acc Teste: 15.25
+Epoca:  3
+Student 3:  Loss Train: 3.6797845805995166 || Acc Train: 16.982 || Loss Teste: 0.8833681396208704 || Acc Teste: 16.73 || Best Acc Teste: 16.73
+Epoca:  4
+Student 3:  Loss Train: 3.6664888015948236 || Acc Train: 17.038 || Loss Teste: 0.8923353441059589 || Acc Teste: 15.6 || Best Acc Teste: 16.73
+Epoca:  5
+Student 3:  Loss Train: 3.689678925089538 || Acc Train: 16.516 || Loss Teste: 0.8967006029561162 || Acc Teste: 15.82 || Best Acc Teste: 16.73
+Epoca:  6
+Student 3:  Loss Train: 3.7412544758990407 || Acc Train: 15.418 || Loss Teste: 0.9100101827643812 || Acc Teste: 13.59 || Best Acc Teste: 16.73
+Epoca:  7
+Student 3:  Loss Train: 3.8450570860877633 || Acc Train: 14.11 || Loss Teste: 0.9213733519427478 || Acc Teste: 12.15 || Best Acc Teste: 16.73
+Epoca:  8
+Student 3:  Loss Train: 3.9214991494081914 || Acc Train: 11.882 || Loss Teste: 0.9417168009094894 || Acc Teste: 10.85 || Best Acc Teste: 16.73
+Epoca:  9
+Student 3:  Loss Train: 3.9988650707527995 || Acc Train: 8.992 || Loss Teste: 0.9641599077731371 || Acc Teste: 8.02 || Best Acc Teste: 16.73
+Epoca:  10
+Student 3:  Loss Train: 4.06642609089613 || Acc Train: 7.37 || Loss Teste: 0.9809672520495951 || Acc Teste: 6.68 || Best Acc Teste: 16.73
+Epoca:  11
+Student 3:  Loss Train: 4.1122668934985995 || Acc Train: 5.704 || Loss Teste: 0.9976914403960109 || Acc Teste: 4.99 || Best Acc Teste: 16.73
+Epoca:  12
+Student 3:  Loss Train: 4.162849688902497 || Acc Train: 3.9 || Loss Teste: 1.005454028956592 || Acc Teste: 3.86 || Best Acc Teste: 16.73
+Epoca:  13
+Student 3:  Loss Train: 4.154751729220152 || Acc Train: 2.538 || Loss Teste: 1.0097653530538082 || Acc Teste: 1.87 || Best Acc Teste: 16.73
+Epoca:  14
+Student 3:  Loss Train: 4.175524143502116 || Acc Train: 1.922 || Loss Teste: 1.0112964767031372 || Acc Teste: 2.04 || Best Acc Teste: 16.73
+Epoca:  15
+Student 3:  Loss Train: 4.182277480140328 || Acc Train: 1.86 || Loss Teste: 1.0124855833128095 || Acc Teste: 1.5 || Best Acc Teste: 16.73
+Epoca:  16
+Student 3:  Loss Train: 4.183911684900522 || Acc Train: 1.08 || Loss Teste: 1.0127719077281654 || Acc Teste: 1.0 || Best Acc Teste: 16.73
+Epoca:  17
+Student 3:  Loss Train: 4.184867613948882 || Acc Train: 1.0 || Loss Teste: 1.0127698751166463 || Acc Teste: 1.0 || Best Acc Teste: 16.73
+Epoca:  18
+Student 3:  Loss Train: 4.1864514742046595 || Acc Train: 1.0 || Loss Teste: 1.0127659942954779 || Acc Teste: 1.0 || Best Acc Teste: 16.73
+Epoca:  19
+Student 3:  Loss Train: 4.183928676880896 || Acc Train: 1.0 || Loss Teste: 1.0127659542486072 || Acc Teste: 1.0 || Best Acc Teste: 16.73
+Epoca:  20
+Student 3:  Loss Train: 4.191009703092277 || Acc Train: 1.0 || Loss Teste: 1.0127652334049344 || Acc Teste: 1.0 || Best Acc Teste: 16.73
+Epoca:  21
+Student 3:  Loss Train: 4.191201386041939 || Acc Train: 1.0 || Loss Teste: 1.0127653842791915 || Acc Teste: 1.0 || Best Acc Teste: 16.73
+Epoca:  22
+Student 3:  Loss Train: 4.187375574372709 || Acc Train: 1.0 || Loss Teste: 1.0127648878842592 || Acc Teste: 1.0 || Best Acc Teste: 16.73
+Epoca:  23
+Student 3:  Loss Train: 4.199334964156151 || Acc Train: 1.0 || Loss Teste: 1.0127647542394698 || Acc Teste: 1.0 || Best Acc Teste: 16.73
+Epoca:  24
+Student 3:  Loss Train: 4.203694305382669 || Acc Train: 1.0 || Loss Teste: 1.0127640943974257 || Acc Teste: 1.0 || Best Acc Teste: 16.73
+Epoca:  25
+Student 3:  Loss Train: 4.195769247598946 || Acc Train: 1.0 || Loss Teste: 1.012763508129865 || Acc Teste: 1.0 || Best Acc Teste: 16.73
+Epoca:  26
+Student 3:  Loss Train: 4.194264511577785 || Acc Train: 1.0 || Loss Teste: 1.0127631365321577 || Acc Teste: 1.0 || Best Acc Teste: 16.73
+Epoca:  27
+Student 3:  Loss Train: 4.186754997819662 || Acc Train: 1.0 || Loss Teste: 1.0127644604071975 || Acc Teste: 1.0 || Best Acc Teste: 16.73
+Epoca:  28
+Student 3:  Loss Train: 4.191488520242274 || Acc Train: 1.0 || Loss Teste: 1.0127634163945913 || Acc Teste: 1.0 || Best Acc Teste: 16.73
+Epoca:  29
+Student 3:  Loss Train: 4.188337774947286 || Acc Train: 1.0 || Loss Teste: 1.0127638932317495 || Acc Teste: 1.0 || Best Acc Teste: 16.73
+Epoca:  30
+Student 3:  Loss Train: 4.188598866574466 || Acc Train: 1.0 || Loss Teste: 1.0127648953348398 || Acc Teste: 1.0 || Best Acc Teste: 16.73
+Epoca:  31
+Student 3:  Loss Train: 4.179399670101702 || Acc Train: 1.0 || Loss Teste: 1.0127655044198036 || Acc Teste: 1.0 || Best Acc Teste: 16.73
+Epoca:  32
+Student 3:  Loss Train: 4.188354653306305 || Acc Train: 1.0 || Loss Teste: 1.0127645852044225 || Acc Teste: 1.0 || Best Acc Teste: 16.73
+Epoca:  33
+Student 3:  Loss Train: 4.190244387835264 || Acc Train: 1.0 || Loss Teste: 1.012764835730195 || Acc Teste: 1.0 || Best Acc Teste: 16.73
+Student 3:  Loss Train: 4.190244387835264 || Acc Train: 1.0 || Loss Teste: 1.012764835730195 || Acc Teste: 1.0 || Best Acc Teste: 16.73
+Epoca:  34
+Student 3:  Loss Train: 4.194390131160617 || Acc Train: 1.0 || Loss Teste: 1.0127660031430423 || Acc Teste: 1.0 || Best Acc Teste: 16.73
+Epoca:  35
+Student 3:  Loss Train: 4.1842127768322825 || Acc Train: 1.0 || Loss Teste: 1.0127652673982084 || Acc Teste: 1.0 || Best Acc Teste: 16.73
+Epoca:  36
+Student 3:  Loss Train: 4.185591715388 || Acc Train: 1.0 || Loss Teste: 1.012765278108418 || Acc Teste: 1.0 || Best Acc Teste: 16.7316.73
+Epoca:  37
+Student 3:  Loss Train: 4.185712180100381 || Acc Train: 1.0 || Loss Teste: 1.0127655118703842 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  38
+Student 3:  Loss Train: 4.192979047074914 || Acc Train: 1.0 || Loss Teste: 1.0127647039480507 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  39
+Student 3:  Loss Train: 4.186835232190788 || Acc Train: 1.0 || Loss Teste: 1.0127648399211466 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  40
+Student 3:  Loss Train: 4.197373663075268 || Acc Train: 1.0 || Loss Teste: 1.0127643374726176 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  41
+Student 3:  Loss Train: 4.170801028609276 || Acc Train: 1.0 || Loss Teste: 1.0127644632011652 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  42
+Student 3:  Loss Train: 4.192603472620249 || Acc Train: 1.0 || Loss Teste: 1.012764671817422 || Acc Teste: 1.0 || Best Acc Teste: 16.7333
+Epoca:  43
+Student 3:  Loss Train: 4.196152940392494 || Acc Train: 1.0 || Loss Teste: 1.0127651481889188 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  44
+Student 3:  Loss Train: 4.198512881062925 || Acc Train: 1.0 || Loss Teste: 1.0127647202461958 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  45
+Student 3:  Loss Train: 4.201490611769259 || Acc Train: 1.0 || Loss Teste: 1.0127648077905178 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  46
+Student 3:  Loss Train: 4.174797926098108 || Acc Train: 1.0 || Loss Teste: 1.0127653204835951 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  47
+Student 3:  Loss Train: 4.191312370356172 || Acc Train: 1.0 || Loss Teste: 1.0127650569193065 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  48
+Student 3:  Loss Train: 4.179174124263227 || Acc Train: 1.0 || Loss Teste: 1.012765221297741 || Acc Teste: 1.0 || Best Acc Teste: 16.7333
+Epoca:  49
+Student 3:  Loss Train: 4.181074836291373 || Acc Train: 1.0 || Loss Teste: 1.0127658937126398 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  50
+Student 3:  Loss Train: 4.183373944833875 || Acc Train: 1.0 || Loss Teste: 1.0127653637900949 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  51
+Student 3:  Loss Train: 4.170715884305537 || Acc Train: 1.0 || Loss Teste: 1.012765631545335 || Acc Teste: 1.0 || Best Acc Teste: 16.7333
+Epoca:  52
+Student 3:  Loss Train: 4.19513684976846 || Acc Train: 1.0 || Loss Teste: 1.0127655304968357 || Acc Teste: 1.0 || Best Acc Teste: 16.7333
+Epoca:  53
+Student 3:  Loss Train: 4.17510384041816 || Acc Train: 1.0 || Loss Teste: 1.0127650192007422 || Acc Teste: 1.0 || Best Acc Teste: 16.7333
+Epoca:  54
+Student 3:  Loss Train: 4.179129922762513 || Acc Train: 1.0 || Loss Teste: 1.0127651081420481 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  55
+Student 3:  Loss Train: 4.187968013808131 || Acc Train: 1.0 || Loss Teste: 1.0127645642496645 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  56
+Student 3:  Loss Train: 4.193697624839842 || Acc Train: 1.0 || Loss Teste: 1.0127644804306328 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  57
+Student 3:  Loss Train: 4.172736898995936 || Acc Train: 1.0 || Loss Teste: 1.012764681596309 || Acc Teste: 1.0 || Best Acc Teste: 16.7333
+Epoca:  58
+Student 3:  Loss Train: 4.198604068718851 || Acc Train: 1.0 || Loss Teste: 1.012764838989824 || Acc Teste: 1.0 || Best Acc Teste: 16.7333
+Epoca:  59
+Student 3:  Loss Train: 4.193933523260057 || Acc Train: 1.0 || Loss Teste: 1.01276463130489 || Acc Teste: 1.0 || Best Acc Teste: 16.73333
+Epoca:  60
+Student 3:  Loss Train: 4.186587285250425 || Acc Train: 1.0 || Loss Teste: 1.012765014078468 || Acc Teste: 1.0 || Best Acc Teste: 16.7333
+Epoca:  61
+Student 3:  Loss Train: 4.187036791816354 || Acc Train: 1.0 || Loss Teste: 1.0127651509828866 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  62
+Student 3:  Loss Train: 4.197641749866307 || Acc Train: 1.0 || Loss Teste: 1.0127644650638103 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  63
+Student 3:  Loss Train: 4.196747808717191 || Acc Train: 1.0 || Loss Teste: 1.0127649707719684 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  64
+Student 3:  Loss Train: 4.191365275532007 || Acc Train: 1.0 || Loss Teste: 1.0127649204805493 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  65
+Student 3:  Loss Train: 4.197390677407384 || Acc Train: 1.0 || Loss Teste: 1.012765362393111 || Acc Teste: 1.0 || Best Acc Teste: 16.7333
+Epoca:  66
+Student 3:  Loss Train: 4.204064150340855 || Acc Train: 1.0 || Loss Teste: 1.01276463130489 || Acc Teste: 1.0 || Best Acc Teste: 16.73333
+Epoca:  67
+Student 3:  Loss Train: 4.180001262575388 || Acc Train: 1.0 || Loss Teste: 1.0127647276967764 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  68
+Student 3:  Loss Train: 4.194930432364345 || Acc Train: 1.0 || Loss Teste: 1.012764999177307 || Acc Teste: 1.0 || Best Acc Teste: 16.7333
+Epoca:  69
+Student 3:  Loss Train: 4.186481526121497 || Acc Train: 1.0 || Loss Teste: 1.0127649558708072 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  70
+Student 3:  Loss Train: 4.190185389481485 || Acc Train: 1.0 || Loss Teste: 1.012764906976372 || Acc Teste: 1.0 || Best Acc Teste: 16.7333
+Epoca:  71
+Student 3:  Loss Train: 4.198104987852275 || Acc Train: 1.0 || Loss Teste: 1.0127649339847267 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  72
+Student 3:  Loss Train: 4.186604354530573 || Acc Train: 1.0 || Loss Teste: 1.0127648934721947 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  73
+Student 3:  Loss Train: 4.191704033873975 || Acc Train: 1.0 || Loss Teste: 1.0127649088390172 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  74
+Student 3:  Loss Train: 4.178590603172779 || Acc Train: 1.0 || Loss Teste: 1.0127648198977113 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  75
+Student 3:  Loss Train: 4.1932061137631536 || Acc Train: 1.0 || Loss Teste: 1.0127646932378411 || Acc Teste: 1.0 || Best Acc Teste: 16.73
+Epoca:  76
+Student 3:  Loss Train: 4.200230252929032 || Acc Train: 1.0 || Loss Teste: 1.0127647570334375 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  77
+Student 3:  Loss Train: 4.191114474087954 || Acc Train: 1.0 || Loss Teste: 1.012764709070325 || Acc Teste: 1.0 || Best Acc Teste: 16.7333
+Epoca:  78
+Student 3:  Loss Train: 4.186155910603702 || Acc Train: 1.0 || Loss Teste: 1.012764791958034 || Acc Teste: 1.0 || Best Acc Teste: 16.7333
+Epoca:  79
+Student 3:  Loss Train: 4.194893912412226 || Acc Train: 1.0 || Loss Teste: 1.0127647165209055 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  80
+Student 3:  Loss Train: 4.188106676563621 || Acc Train: 1.0 || Loss Teste: 1.012764887418598 || Acc Teste: 1.0 || Best Acc Teste: 16.7333
+Epoca:  81
+Student 3:  Loss Train: 4.185048456303775 || Acc Train: 1.0 || Loss Teste: 1.0127649195492268 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  82
+Student 3:  Loss Train: 4.1940795592963696 || Acc Train: 1.0 || Loss Teste: 1.0127648739144206 || Acc Teste: 1.0 || Best Acc Teste: 16.73
+Epoca:  83
+Student 3:  Loss Train: 4.191385829821229 || Acc Train: 1.0 || Loss Teste: 1.0127648515626788 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  84
+Student 3:  Loss Train: 4.190698325634003 || Acc Train: 1.0 || Loss Teste: 1.0127647784538567 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  85
+Student 3:  Loss Train: 4.187786678783596 || Acc Train: 1.0 || Loss Teste: 1.0127647938206792 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  86
+Student 3:  Loss Train: 4.191474448889494 || Acc Train: 1.0 || Loss Teste: 1.0127648133784533 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  87
+Student 3:  Loss Train: 4.19761292822659 || Acc Train: 1.0 || Loss Teste: 1.01276486646384 || Acc Teste: 1.0 || Best Acc Teste: 16.73.733
+Epoca:  88
+Student 3:  Loss Train: 4.189284012652934 || Acc Train: 1.0 || Loss Teste: 1.0127648450434208 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  89
+Student 3:  Loss Train: 4.1877571707591414 || Acc Train: 1.0 || Loss Teste: 1.0127648781053722 || Acc Teste: 1.0 || Best Acc Teste: 16.73
+Epoca:  90
+Student 3:  Loss Train: 4.183750641532242 || Acc Train: 1.0 || Loss Teste: 1.012764877639711 || Acc Teste: 1.0 || Best Acc Teste: 16.7373
+Epoca:  91
+Student 3:  Loss Train: 4.198652328923345 || Acc Train: 1.0 || Loss Teste: 1.0127648995257914 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  92
+Student 3:  Loss Train: 4.1851103669032454 || Acc Train: 1.0 || Loss Teste: 1.0127648911438882 || Acc Teste: 1.0 || Best Acc Teste: 16.73
+Epoca:  93
+Student 3:  Loss Train: 4.185128286480904 || Acc Train: 1.0 || Loss Teste: 1.0127648962661624 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  94
+Student 3:  Loss Train: 4.205573584884405 || Acc Train: 1.0 || Loss Teste: 1.0127649060450494 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  95
+Student 3:  Loss Train: 4.19660515524447 || Acc Train: 1.0 || Loss Teste: 1.0127649023197591 || Acc Teste: 1.0 || Best Acc Teste: 16.7333
+Epoca:  96
+Student 3:  Loss Train: 4.188807975500822 || Acc Train: 1.0 || Loss Teste: 1.0127649032510817 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  97
+Student 3:  Loss Train: 4.174924022518098 || Acc Train: 1.0 || Loss Teste: 1.0127649032510817 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  98
+Student 3:  Loss Train: 4.189265797846019 || Acc Train: 1.0 || Loss Teste: 1.0127648967318237 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Epoca:  99
+Student 3:  Loss Train: 4.192328445613384 || Acc Train: 1.0 || Loss Teste: 1.0127648999914527 || Acc Teste: 1.0 || Best Acc Teste: 16.733
+Student 3:  Loss Train: 4.192328445613384 || Acc Train: 1.0 || Loss Teste: 1.0127648999914527 || Acc Teste: 1.0 || Best Acc Teste: 16.733

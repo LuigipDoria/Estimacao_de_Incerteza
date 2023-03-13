@@ -1,0 +1,79 @@
+{
+    "os": "Linux-4.15.0-197-generic-x86_64-with-glibc2.27",
+    "python": "3.10.8",
+    "heartbeatAt": "2023-02-28T11:00:12.010397",
+    "startedAt": "2023-02-28T11:00:11.332390",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "IC/Treinamento.ipynb",
+    "root": "/home/luigi-doria",
+    "host": "ml",
+    "username": "luigi-doria",
+    "executable": "/home/luigi-doria/miniconda3/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 3.5385000000000004,
+        "min": 800.0,
+        "max": 4500.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3.454,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 3.822,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 3.134,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 3.76,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 3.607,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 3.487,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 3.517,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 3.527,
+            "min": 800.0,
+            "max": 4500.0
+        }
+    ],
+    "disk": {
+        "total": 915.3223114013672,
+        "used": 348.51861572265625
+    },
+    "gpu": "NVIDIA GeForce GTX 1060 6GB",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1060 6GB",
+            "memory_total": 6371475456
+        }
+    ],
+    "memory": {
+        "total": 7.717708587646484
+    }
+}

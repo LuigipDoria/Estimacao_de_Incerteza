@@ -1,0 +1,87 @@
+2023-02-14 17:10:06,587 INFO    MainThread:3816 [wandb_setup.py:_flush():68] Configure stats pid to 3816
+2023-02-14 17:10:06,587 INFO    MainThread:3816 [wandb_setup.py:_flush():68] Loading settings from /home/luigi-doria/.config/wandb/settings
+2023-02-14 17:10:06,587 INFO    MainThread:3816 [wandb_setup.py:_flush():68] Loading settings from /home/luigi-doria/IC/wandb/settings
+2023-02-14 17:10:06,587 INFO    MainThread:3816 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-02-14 17:10:06,588 INFO    MainThread:3816 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-02-14 17:10:06,588 INFO    MainThread:3816 [wandb_init.py:_log_setup():478] Logging user logs to /home/luigi-doria/IC/wandb/run-20230214_171006-pba8oc52/logs/debug.log
+2023-02-14 17:10:06,588 INFO    MainThread:3816 [wandb_init.py:_log_setup():479] Logging internal logs to /home/luigi-doria/IC/wandb/run-20230214_171006-pba8oc52/logs/debug-internal.log
+2023-02-14 17:10:06,588 INFO    MainThread:3816 [wandb_init.py:init():518] calling init triggers
+2023-02-14 17:10:06,589 INFO    MainThread:3816 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {'architecture': 'Resnet18', 'N_ensemble': '5', 'Data_set': 'Cifar 100', 'temperatura': '1'}
+2023-02-14 17:10:06,589 INFO    MainThread:3816 [wandb_init.py:init():571] starting backend
+2023-02-14 17:10:06,589 INFO    MainThread:3816 [wandb_init.py:init():575] setting up manager
+2023-02-14 17:10:06,591 INFO    MainThread:3816 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-02-14 17:10:06,592 INFO    MainThread:3816 [wandb_init.py:init():582] backend started and connected
+2023-02-14 17:10:06,597 INFO    MainThread:3816 [wandb_run.py:_label_probe_notebook():1202] probe notebook
+2023-02-14 17:10:06,597 INFO    MainThread:3816 [wandb_run.py:_label_probe_notebook():1212] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-02-14 17:10:06,597 INFO    MainThread:3816 [wandb_init.py:init():670] updated telemetry
+2023-02-14 17:10:06,597 INFO    MainThread:3816 [wandb_init.py:init():710] communicating run to backend with 60.0 second timeout
+2023-02-14 17:11:06,659 ERROR   MainThread:3816 [wandb_init.py:init():724] backend process timed out, exiting...
+encountered error: Error communicating with wandb process, exiting...
+For more info see: https://docs.wandb.ai/library/init#init-start-error
+2023-02-14 17:11:06,665 ERROR   MainThread:3816 [wandb_init.py:init():1135] error
+Traceback (most recent call last):
+  File "/home/luigi-doria/miniconda3/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1108, in init
+    run = wi.init()
+  File "/home/luigi-doria/miniconda3/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 742, in init
+    raise error
+wandb.errors.CommError: Error communicating with wandb process, exiting...
+For more info see: https://docs.wandb.ai/library/init#init-start-error
+2023-02-14 17:11:45,225 INFO    MainThread:3816 [wandb_setup.py:_flush():68] Configure stats pid to 3816
+2023-02-14 17:11:45,225 INFO    MainThread:3816 [wandb_setup.py:_flush():68] Loading settings from /home/luigi-doria/.config/wandb/settings
+2023-02-14 17:11:45,225 INFO    MainThread:3816 [wandb_setup.py:_flush():68] Loading settings from /home/luigi-doria/IC/wandb/settings
+2023-02-14 17:11:45,225 INFO    MainThread:3816 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-02-14 17:11:45,225 INFO    MainThread:3816 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-02-14 17:11:45,225 INFO    MainThread:3816 [wandb_init.py:_log_setup():478] Logging user logs to /home/luigi-doria/IC/wandb/run-20230214_171145-rqy0xwsp/logs/debug.log
+2023-02-14 17:11:45,225 INFO    MainThread:3816 [wandb_init.py:_log_setup():479] Logging internal logs to /home/luigi-doria/IC/wandb/run-20230214_171145-rqy0xwsp/logs/debug-internal.log
+2023-02-14 17:11:45,226 INFO    MainThread:3816 [wandb_init.py:init():518] calling init triggers
+2023-02-14 17:11:45,226 INFO    MainThread:3816 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {'architecture': 'Resnet18', 'N_ensemble': '5', 'Data_set': 'Cifar 100', 'temperatura': '1'}
+2023-02-14 17:11:45,226 INFO    MainThread:3816 [wandb_init.py:init():571] starting backend
+2023-02-14 17:11:45,226 INFO    MainThread:3816 [wandb_init.py:init():575] setting up manager
+2023-02-14 17:11:45,227 INFO    MainThread:3816 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-02-14 17:11:45,228 INFO    MainThread:3816 [wandb_init.py:init():582] backend started and connected
+2023-02-14 17:11:45,236 INFO    MainThread:3816 [wandb_run.py:_label_probe_notebook():1202] probe notebook
+2023-02-14 17:11:45,236 INFO    MainThread:3816 [wandb_run.py:_label_probe_notebook():1212] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-02-14 17:11:45,237 INFO    MainThread:3816 [wandb_init.py:init():670] updated telemetry
+2023-02-14 17:11:45,238 INFO    MainThread:3816 [wandb_init.py:init():710] communicating run to backend with 60.0 second timeout
+2023-02-14 17:12:45,303 ERROR   MainThread:3816 [wandb_init.py:init():724] backend process timed out, exiting...
+encountered error: Error communicating with wandb process, exiting...
+For more info see: https://docs.wandb.ai/library/init#init-start-error
+2023-02-14 17:12:45,309 ERROR   MainThread:3816 [wandb_init.py:init():1135] error
+Traceback (most recent call last):
+  File "/home/luigi-doria/miniconda3/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1108, in init
+    run = wi.init()
+  File "/home/luigi-doria/miniconda3/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 742, in init
+    raise error
+wandb.errors.CommError: Error communicating with wandb process, exiting...
+For more info see: https://docs.wandb.ai/library/init#init-start-error
+2023-02-14 17:13:22,433 INFO    MainThread:3816 [wandb_setup.py:_flush():68] Configure stats pid to 3816
+2023-02-14 17:13:22,434 INFO    MainThread:3816 [wandb_setup.py:_flush():68] Loading settings from /home/luigi-doria/.config/wandb/settings
+2023-02-14 17:13:22,434 INFO    MainThread:3816 [wandb_setup.py:_flush():68] Loading settings from /home/luigi-doria/IC/wandb/settings
+2023-02-14 17:13:22,434 INFO    MainThread:3816 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-02-14 17:13:22,434 INFO    MainThread:3816 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-02-14 17:13:22,434 INFO    MainThread:3816 [wandb_init.py:_log_setup():478] Logging user logs to /home/luigi-doria/IC/wandb/run-20230214_171322-b88ardu7/logs/debug.log
+2023-02-14 17:13:22,434 INFO    MainThread:3816 [wandb_init.py:_log_setup():479] Logging internal logs to /home/luigi-doria/IC/wandb/run-20230214_171322-b88ardu7/logs/debug-internal.log
+2023-02-14 17:13:22,435 INFO    MainThread:3816 [wandb_init.py:init():518] calling init triggers
+2023-02-14 17:13:22,435 INFO    MainThread:3816 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {'architecture': 'Resnet18', 'N_ensemble': '5', 'Data_set': 'Cifar 100', 'temperatura': '1'}
+2023-02-14 17:13:22,435 INFO    MainThread:3816 [wandb_init.py:init():571] starting backend
+2023-02-14 17:13:22,435 INFO    MainThread:3816 [wandb_init.py:init():575] setting up manager
+2023-02-14 17:13:22,437 INFO    MainThread:3816 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-02-14 17:13:22,438 INFO    MainThread:3816 [wandb_init.py:init():582] backend started and connected
+2023-02-14 17:13:22,453 INFO    MainThread:3816 [wandb_run.py:_label_probe_notebook():1202] probe notebook
+2023-02-14 17:13:22,453 INFO    MainThread:3816 [wandb_run.py:_label_probe_notebook():1212] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-02-14 17:13:22,454 INFO    MainThread:3816 [wandb_init.py:init():670] updated telemetry
+2023-02-14 17:13:22,458 INFO    MainThread:3816 [wandb_init.py:init():710] communicating run to backend with 60.0 second timeout
+2023-02-14 17:14:22,527 ERROR   MainThread:3816 [wandb_init.py:init():724] backend process timed out, exiting...
+encountered error: Error communicating with wandb process, exiting...
+For more info see: https://docs.wandb.ai/library/init#init-start-error
+2023-02-14 17:14:22,532 ERROR   MainThread:3816 [wandb_init.py:init():1135] error
+Traceback (most recent call last):
+  File "/home/luigi-doria/miniconda3/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1108, in init
+    run = wi.init()
+  File "/home/luigi-doria/miniconda3/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 742, in init
+    raise error
+wandb.errors.CommError: Error communicating with wandb process, exiting...
+For more info see: https://docs.wandb.ai/library/init#init-start-error
