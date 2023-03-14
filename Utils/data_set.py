@@ -18,12 +18,12 @@ def cifar10():
 
     batch_size = 128
 
-    trainset = torchvision.datasets.CIFAR10(root='./Data_sets', train=True,
+    trainset = torchvision.datasets.CIFAR10(root='/home/luigi-doria/Data_sets', train=True,
                                             download=True, transform=transform_train)
     trainloader = torch.utils.data.DataLoader(trainset, batch_size=128,
                                               shuffle=True, num_workers=2)
 
-    testset = torchvision.datasets.CIFAR10(root='./Data_sets', train=False,
+    testset = torchvision.datasets.CIFAR10(root='/home/luigi-doria/Data_sets', train=False,
                                            download=True, transform=transform_test)
     testloader = torch.utils.data.DataLoader(testset, batch_size=100,
                                              shuffle=False, num_workers=2)
@@ -49,12 +49,12 @@ def cifar100():
 
     batch_size = 128
 
-    trainset = torchvision.datasets.CIFAR100(root='./Data_sets', train=True,
+    trainset = torchvision.datasets.CIFAR100(root='/home/luigi-doria/Data_sets', train=True,
                                             download=True, transform=transform_train)
     trainloader = torch.utils.data.DataLoader(trainset, batch_size=128,
                                               shuffle=True, num_workers=2)
 
-    testset = torchvision.datasets.CIFAR100(root='./Data_sets', train=False,
+    testset = torchvision.datasets.CIFAR100(root='/home/luigi-doria/Data_sets', train=False,
                                            download=True, transform=transform_test)
     testloader = torch.utils.data.DataLoader(testset, batch_size=100,
                                              shuffle=False, num_workers=2)
