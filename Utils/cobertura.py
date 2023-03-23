@@ -94,10 +94,16 @@ def ROC_curve(output,y_true, uncertainty, return_threholds = False):
     else:
         return fpr,tpr
 
-def AURC(y_pred,y_true,uncertainty, risk = error_coverage, c_list = np.arange(0.05,1.05,0.05)):
+def AURC(y_pred,y_true,uncertainty, risk = error_coverage, c_list = np.arange(0.05,1.05,0.05), return_curve=False):
     risk_list = RC_curve(y_pred,y_true,uncertainty, risk, c_list)
-    return np.trapz(risk_list,x = c_list, axis = -1)
+    if return_curve:
+        return np.trapz(risk_list,x = c_list, axis = -1), risk_list
+    else:
+        return np.trapz(risk_list,x = c_list, axis = -1)
 
-def AUROC(output,y_true,uncertainty):
+def AUROC(output,y_true,uncertainty, return_curve=False):
     fpr,tpr = ROC_curve(output,y_true,uncertainty)
-    return auc(fpr, tpr)
+    if return_curve:
+        return auc(fpr, tpr), fpr, tpr
+    else:
+        return auc(fpr, tpr)
