@@ -113,3 +113,24 @@ def load_hydra(hydra, data_set, n_cabecas):
             if filename[6:8] == n_cabecas:
                 hydra.load_state_dict(torch.load('./Data_sets/Hydra {}/{}'.format(data_set,filename)))
     return hydra
+
+def load_resnet18_v2(n_rede, data_set):
+    # APENAS CARREGA AS REDES DO CIFAR 10 OU CIFAR 100
+    if data_set == "Cifar10":
+        for i in range(n_rede):
+            if i == 0 and n_redes == (n_rede-1):
+                aux = ""
+                net  = torch.load('./Data_sets/Cifar10/net{}.pth'.format(aux))
+                break
+            else:
+                net  = torch.load('./Data_sets/Cifar10/net{}.pth'.format(i))
+                break
+                
+    elif data_set == "Cifar100": 
+        for dirname, _, filenames in os.walk('./Data_sets/Cifar100'):
+            for i, filename in enumerate(filenames):
+                if i == n_rede-1:
+                    net = torch.load("./Data_sets/Cifar100/{}".format(filename)).module.to("cuda")
+                    break
+                
+    return net
